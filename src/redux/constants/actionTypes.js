@@ -1,0 +1,1 @@
+export const FETCH_2DCARTOONS = 'FETCH_2DCARTOONS';
