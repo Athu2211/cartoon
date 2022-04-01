@@ -1,21 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { useDispatch } from "react-redux";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import { get2Dcartoons } from "./redux/actions/cartoons";
+// import { get2Dcartoons } from "./redux/actions/cartoons";
 import './App.css';
 import Cartoons from "./components/Cartoon/Cartoons";
 import Cartoon2D from "./components/Cartoon/Cartoon2D";
 import Cartoon3D from "./components/Cartoon/Cartoon3D";
 
 function App() {
-	const dispatch = useDispatch();
+	// const dispatch = useDispatch();
 
-	useEffect(() => {
-		dispatch(get2Dcartoons());
-	});
+	// useEffect(() => {
+	// 	dispatch(get2Dcartoons());
+	// });
 
 	return (
 		<>
